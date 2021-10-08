@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Responsive Navigation Bar</title>
+    <script src="https://kit.fontawesome.com/d33d2ea69a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="heading_box">
+            <h1>WEBSITE</h1>
+        </div>
+        <div id="marquee" loop="infinite" vspace="20">
+            <marquee>The Lord Jesus said, “And because iniquity shall abound, the love of many shall wax cold” (Matthew 24:12). </marquee>
+        </div>
+        <div id="navigation">
+            <ul>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>About Us</li>
+                </a>
+                <a href="#">
+                    <li>Gallery</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div id="image_container">
+            <div class="image_container_detail">
+                <i class="fas fa-arrow-circle-left" onclick="Previous()"></i>
+                <img src="./images/apple_image.jpg" alt="apple" id="image_slider">
+                <i class="fas fa-arrow-circle-right" onclick="Next()"></i>
+            </div>
+            <div class="image_container_detail" id="image_content">
+                <h2 id="image_content_heading">Apple</h2>
+                <p id="image_content_slider">An apple is an edible fruit produced by an apple tree (Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus
+                    sieversii, is still found today. Apples have been grown for thousands of years in Asia and Europe and were brought to North America by European colonists. Apples have religious and mythological significance in many cultures, including
+                    Norse, Greek, and European Christian tradition.Apples grown from seed tend to be very different from those of the parents, and the resultant fruit frequently lack desired characteristics. Generally then, apple cultivars are propagated
+                    by clonal grafting onto rootstocks. Apple trees grown without rootstocks tend to be large and much slower to fruit after planting. Rootstocks are used to control speed of growth and the size of the resulting tree allowing for easier
+                    harvesting. There are more than 7,500 known cultivars of apples. Different cultivars are bred for various tastes and use, including cooking, eating raw and cider production. Trees and fruit are prone to a number of fungal, bacterial
+                    and pest problems, which can be controlled by a number of organic and non-organic means. In 2010, the fruit's genome was sequenced as part of research on disease control and selective breeding in apple production.Worldwide production
+                    of apples in 2018 was 86 million tonnes, with China accounting for nearly half of the total.</p>
+            </div>
+        </div>
+        <div id="iframe_content">
+            <p><a href="./images/cloud1.jfif" target="iframe_a">Tree</a></p>
+            <iframe name="iframe_a" title="website_iframe" src="./images/apple_image.jpg"></iframe>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

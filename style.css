@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100%;
+    height: auto;
+}
+
+#container #heading_box {
+    height: 150px;
+    width: 100%;
+    background-image: url("./images/cloud1.jfif");
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+
+#container #heading_box h1 {
+    color: white;
+    text-align: center;
+    padding: 45px;
+}
+
+#container #marquee {
+    height: 40px;
+    width: 100%;
+    background-color: rgba(245, 245, 255, 0.897);
+    color: red
+}
+
+#container #marquee marquee {
+    padding: 10px
+}
+
+#container #navigation {
+    height: 51px;
+    width: 60%;
+    position: relative;
+    left: 300px;
+    background-color: rgb(224, 232, 233);
+}
+
+#container #navigation ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#container #navigation ul a {
+    text-decoration: none;
+}
+
+#container #navigation ul a li {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#container #navigation ul a li:hover {
+    background-color: rgb(173, 176, 177);
+    color: rgb(233, 5, 5)
+}
+
+#container #image_container {
+    height: 454px;
+    width: 100%;
+    border: 1px solid rgb(198, 202, 202);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(198, 202, 202);
+}
+
+#container #image_container .image_container_detail {
+    border-right: 1px solid rgb(110, 124, 110);
+}
+
+#container #image_container .image_container_detail .fa-arrow-circle-left {
+    font-size: 35px;
+    position: relative;
+    bottom: 200px;
+    left: 20px;
+    cursor: pointer;
+}
+
+#container #image_container .image_container_detail #image_slider {
+    margin: 25px;
+    width: 70%;
+    height: 400px;
+    position: relative;
+    left: 50px;
+}
+
+#container #image_container .image_container_detail .fa-arrow-circle-right {
+    font-size: 35px;
+    position: relative;
+    bottom: 200px;
+    left: 60px;
+    cursor: pointer;
+}
+
+#container #image_container #image_content {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#container #image_container .image_container_detail #image_content_heading {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#container #image_container .image_container_detail #image_content_slider {
+    padding: 23px;
+    text-align: center;
+    line-height: 30px;
+    word-spacing: 3px;
+}
+
+#container #iframe_content {
+    height: 300px;
+    width: 500px;
+    margin: 50px;
+}
+
+#container #iframe_content p {
+    text-align: center;
+}
+
+#container #iframe_content p a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#container #iframe_content iframe {
+    height: 275px;
+    width: 100%;
+    border: none;
+}
